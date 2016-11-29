@@ -1,0 +1,15 @@
+nav .brand-logo {
+  font-size: 1.5em;
+  left: 15px;
+}
+
+/** Side navbar **/
+.side-nav a {
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    transform: none;
+    margin-left: 35px;
+  }
+}
