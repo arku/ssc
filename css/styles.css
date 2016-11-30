@@ -2,14 +2,23 @@ body {
   background: url('../images/textile.png');
 }
 
+/** Navigation styles **/
+nav ul a {
+  color: #000;
+}
+
 nav .brand-logo {
   font-size: 1.5em;
   left: 15px;
+  color: #000;
 }
 
-/** Side navbar **/
-.side-nav a {
-  color: #fff;
+.nav-wrapper {
+  background: #fff;
+}
+
+nav .button-collapse i {
+  color: #000;
 }
 
 @media only screen and (max-width: 992px) {
@@ -17,4 +26,10 @@ nav .brand-logo {
     transform: none;
     margin-left: 35px;
   }
+}
+
+/** Main content styles **/
+h1 {
+  font-size: 3em;
+  font-weight: 200;
 }
