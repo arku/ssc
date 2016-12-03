@@ -62,3 +62,22 @@ h2 {
 .border-light-green {
   border-bottom: 3px solid #1EC063;
 }
+
+/** About us **/
+.row .content {
+  font-size: 16px;
+  padding: 10px 20px 30px;
+  line-height: 2em;
+}
+
+.shadow {
+  box-shadow: 1px 1px 6px #ccc;
+}
+
+.dark {
+  font-weight: 500;
+}
+
+.border-light-blue {
+  border-bottom: 3px solid #2B8AF4;
+}
