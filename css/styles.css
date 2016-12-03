@@ -33,3 +33,32 @@ h1 {
   font-size: 3em;
   font-weight: 200;
 }
+
+h2 {
+  font-size: 2.5em;
+}
+.container .row {
+  margin: 40px 0;
+}
+.row .col {
+  padding: 0;
+}
+
+/** Promotion **/
+.promotion {
+  padding: 0 10px 20px;
+  line-height: 2em;
+}
+.promotion i {
+  font-size: 7em;
+  color: #1EC063;
+}
+
+.promotion-caption {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.border-light-green {
+  border-bottom: 3px solid #1EC063;
+}
