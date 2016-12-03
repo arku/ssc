@@ -41,7 +41,12 @@ h2 {
   margin: 40px 0;
 }
 .row .col {
-  padding: 0;
+  padding: 15px 0 0;
+}
+
+/** Home **/
+.border-light-red {
+  border-bottom: 3px solid #e74c3c;
 }
 
 /** Promotion **/
