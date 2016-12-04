@@ -28,23 +28,71 @@ nav .button-collapse i {
   }
 }
 
-/** Main content styles **/
-h1 {
+/** Grid styles **/
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container .row {
+  margin: 50px 0;
+}
+
+.container .row:first-of-type {
+  margin: 0;
+}
+
+.row .col {
+  padding: 15px 0 0;
+}
+
+/** Landing **/
+#landing {
+  background: #2B8AF4;
+  padding-bottom: 50px;
+}
+
+.landing-phrase {
   font-size: 3em;
-  font-weight: 200;
+  font-weight: 600;
+}
+
+.landing-sub-phrase {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.buttons {
+  margin-bottom: 40px;
+}
+
+.buy-btn, .check-out-btn {
+  height: 45px;
+  border-radius: 25px;
+}
+.buy-btn, .buy-btn:hover, .buy-btn:focus {
+  background: #D3750B;
+}
+
+.check-out-btn {
+  background: #fff;
+  color: #D3750B;
+  margin-left: 15px;
+}
+.check-out-btn:hover, .check-out-btn:focus {
+  background: #D3750B;
+  color: #fff;
 }
 
 h2 {
   font-size: 2.5em;
 }
-.container .row {
-  margin: 40px 0;
-}
-.row .col {
-  padding: 15px 0 0;
-}
 
 /** Home **/
+.home {
+  background: #fff;
+}
+
 .border-light-red {
   border-bottom: 3px solid #e74c3c;
 }
