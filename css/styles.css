@@ -1,5 +1,5 @@
 body {
-  background: url('../images/textile.png');
+  background: url('../images/fabric.png');
 }
 
 /** Navigation styles **/
@@ -92,19 +92,22 @@ h2 {
 .home {
   background: #fff;
 }
-
-.border-light-red {
-  border-bottom: 3px solid #e74c3c;
+.home p:first-child::first-letter {
+  font-size: 2em;
 }
 
 /** Promotion **/
+#promo {
+  background: #ff1510;
+  padding: 40px 0;
+}
+
 .promotion {
   padding: 0 10px 20px;
   line-height: 2em;
 }
 .promotion i {
   font-size: 7em;
-  color: #1EC063;
 }
 
 .promotion-caption {
