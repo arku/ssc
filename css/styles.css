@@ -48,7 +48,7 @@ nav .button-collapse i {
 
 /** Landing **/
 #landing {
-  background: #2B8AF4;
+  background: #2b8af4;
   padding-bottom: 50px;
 }
 
@@ -116,7 +116,7 @@ h2 {
 }
 
 .border-light-green {
-  border-bottom: 3px solid #1EC063;
+  border-bottom: 3px solid #1ec063;
 }
 
 /** About us **/
@@ -158,4 +158,58 @@ h2 {
 
 .product-card:nth-child(3n) {
   margin-right: 15px;
+}
+
+/** Contact us **/
+
+/** contact form **/
+#contact-form {
+  background: whitesmoke;
+  padding: 20px;
+}
+
+input.valid {
+  border-bottom: 1px solid #2b8af4;
+  box-shadow: 0 1px 0 0 #2b8af4;
+}
+
+#full-name, #email, #message {
+  background: #fff;
+  font-size: 1em;
+  margin: 0;
+}
+
+#full-name:focus:not([readonly]),
+#email:focus:not([readonly]),
+#message:focus:not([readonly]) {
+  border-bottom: 1px solid #2b8af4;
+  box-shadow: 0 1px 0 0 #2b8af4;
+}
+
+#full-name:focus:not([readonly]) + label,
+#email:focus:not([readonly]) + label,
+#message:focus:not([readonly]) + label {
+  color: #2b8af4;
+}
+
+#email-field, #message-field {
+  margin-top: 30px;
+}
+
+.input-field label.active {
+  transform: translate(-2%, -180%);
+}
+
+label {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.send-btn {
+  margin-top: 20px;
+  background: #2b8af4;
+}
+
+.send-btn:focus, .send-btn:hover {
+  background: #2b8af4;
 }
