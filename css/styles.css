@@ -135,7 +135,7 @@ h2 {
 }
 
 .border-light-blue {
-  border-bottom: 3px solid #2B8AF4;
+  border-bottom: 3px solid #2b8af4;
 }
 
 /** Products **/
@@ -161,6 +161,35 @@ h2 {
 }
 
 /** Contact us **/
+
+.col.contact {
+  padding: 0;
+}
+
+.address-panel {
+  margin-top: 0;
+  padding: 20px;
+}
+
+.material-icons {
+  transform: translateY(5px);
+}
+
+.light-blue-icon {
+  color: #2b8af4;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+
+a[href^="tel"] {
+  cursor: pointer;
+}
 
 /** contact form **/
 #contact-form {
@@ -206,7 +235,7 @@ label {
 }
 
 .send-btn {
-  margin-top: 20px;
+  margin-top: 32px;
   background: #2b8af4;
 }
 
