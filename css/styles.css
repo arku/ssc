@@ -2,6 +2,12 @@ body {
   background: url('../images/fabric.png');
 }
 
+/** Global **/
+#home, #about, #contact {
+  margin-left: 15px;
+}
+
+
 /** Navigation styles **/
 nav ul a {
   color: #000;
