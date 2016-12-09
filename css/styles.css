@@ -92,9 +92,6 @@ h2 {
 .home {
   background: #fff;
 }
-.home p:first-child::first-letter {
-  font-size: 2em;
-}
 
 /** Promotion **/
 #promo {
