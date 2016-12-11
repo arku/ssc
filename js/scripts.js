@@ -1,12 +1,20 @@
 $(document).ready(function () {
+
   $('.button-collapse').sideNav();
+
   $('.slider').slider({
     full_width: true,
     indicators: false
   });
 
+  $('.modal').modal();
+
+  $('ul.tabs').tabs();
+
+  $('.materialboxed').materialbox();
+
   // Smooth scroll
-  $('a[href*="#"]:not([href="#"])').click(function () {
+  $('a[href*="#"]:not([href^="#modal"]):not([href^="#tab"]):not([href="#"])').click(function () {
     // Check if the link target belongs this to page
     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
       location.hostname === this.hostname) {
@@ -18,8 +26,13 @@ $(document).ready(function () {
 
         if (target.length)
           $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
+              scrollTop: target.offset().top
+            }, 1000);
     }
-  })
+  });
+
+  //var modalIds= ['modal1', 'modal2', 'modal3', 'modal4'];
+  //modalIds.forEach(function(modalId) {
+    $('.product-item:nth-of-type(3n)').addClass('clearfix');
+  //});
 });

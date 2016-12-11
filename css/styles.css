@@ -163,6 +163,37 @@ h2 {
   margin-right: 15px;
 }
 
+.modal {
+  max-height: 85%;
+}
+
+/** tabs **/
+.tab-row .col {
+  padding: 0;
+}
+
+.tabs .tab a {
+  color: #2b8af4;
+}
+
+.tabs .indicator {
+  background: #2b8af4;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #2b81ff;
+}
+
+.item-card {
+  margin: 15px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 /** Contact us **/
 .col.contact {
   padding: 0;
