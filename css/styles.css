@@ -137,6 +137,10 @@ h2 {
   font-weight: 500;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .border-light-blue {
   border-bottom: 3px solid #2b8af4;
 }
