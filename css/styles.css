@@ -167,6 +167,10 @@ h2 {
   max-height: 85%;
 }
 
+.modal.modal-fixed-footer.product-modal {
+  height: 90%;
+}
+
 /** tabs **/
 .tab-row .col {
   padding: 0;
@@ -188,9 +192,13 @@ h2 {
   margin: 15px;
 }
 
-.clearfix:after {
-  content: '';
-  display: block;
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after {
   clear: both;
 }
 

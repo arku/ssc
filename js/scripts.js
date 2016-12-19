@@ -30,9 +30,4 @@ $(document).ready(function () {
             }, 1000);
     }
   });
-
-  //var modalIds= ['modal1', 'modal2', 'modal3', 'modal4'];
-  //modalIds.forEach(function(modalId) {
-    $('.product-item:nth-of-type(3n)').addClass('clearfix');
-  //});
 });
